@@ -1,22 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <!--css  -->
-  <link rel="stylesheet" href="./css/style.css">
-<title>Anime</title>
-  </head>
-  <body>
-    <h1>Dragon Ball Z</h1>
-    <button class="btn btn-primary">hola soy un boton</button>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--css  -->
+    <link rel="stylesheet" href="./css/style.css">
 
+    <title>Horoscopo</title>
+</head>
 
+<body>
+    <header class="header">
+        <h1 class="wow animate__animated animate__bounce">Horoscopo</h1>
+        <li>LINK</li>
+        <li>LINK</li>
+        <li>LINK</li>
+    </header>
+    <main class="main">
+        <div class="grid-container">
+            <div><img src="./imag/aries.jpg" alt="signo aries"></div>
+            <p>Estás en un buen momento, Aries, y deberías aprovecharlo a diario. Experimenta cosas nuevas que te estimulen la capacidad de soñar y de desear lo mejor para tu vida. Siempre es bueno dar rienda suelta a la imaginación porque te puede llevar a soluciones inesperadas e idear cosas mejores.</p>
+            <div><img src="./imag/geminis.jpg" alt="signo geminis"></div>
+            <p>Es verdad que de vez en cuando es bueno hacer una pausa en el ajetreo diario para reflexionar acerca de lo que has conseguido, Géminis, pero precisamente hoy no te conviene. Es momento de vivir la vida con intensidad, tomando decisiones de forma rápida y escuchando tu intuición.</p>
+            <div><img src="./imag/leo.jpg" alt="signo leo"></div>
+            <p>No cometa un error por su impaciencia, relájese y conseguirá lo que se propone. Evite que la pena invada su corazón. Caso contrario, no podrá pensar correctamente.</p>
+            <div><img src="./imag/sagitario.jpg" alt="signo sagitario"></div>
+            <p>Estás un poco “chof”, Sagitario, y hoy te convendría ver el panorama diario más positivamente. Quizá algunas cosas no te han salido como esperabas pero éste no es motivo para venirse abajo. Aunque no hayas alcanzado tus sueños no tienes que desistir de ellos. No dejes nunca de pensar en lo que quieres para tu futuro.
+            </p>
+        </div>
+    </main>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
 </html>
